@@ -1,0 +1,33 @@
+// PDFTemplate.module.scss
+.pdfTemplate {
+  // A4 Landscape dimensions minus margins (297mm × 210mm)
+  width: 277mm; // 297mm - 10mm margins each side
+  min-height: 190mm; // 210mm - 10mm margins top/bottom
+  margin: 10mm;
+  box-sizing: border-box;
+  background: white;
+
+  // Ensure content stays within printable area
+  overflow: hidden;
+
+  // Page break control
+  page-break-inside: avoid;
+  page-break-after: auto;
+  page-break-before: auto;
+
+  // Content styling
+  .section {
+    page-break-inside: avoid;
+    margin-bottom: 5mm;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .page-break {
+    page-break-after: always;
+    height: 0;
+    visibility: hidden;
+  }
+}

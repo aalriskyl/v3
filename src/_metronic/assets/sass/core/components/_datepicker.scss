@@ -1,0 +1,40 @@
+.metronic-datepicker-popper {
+    z-index: 1060; // Above Metronic elements like tooltips
+    background-color: #ffff;
+    border-radius: 0.475rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 1.25rem;
+    animation: fadeIn 0.3s ease;
+
+    .react-datepicker {
+        border: none;
+    }
+
+    .react-datepicker__header {
+        background-color: #ffff;;
+        border-bottom: 1px solid #ffff;;
+    }
+
+    .react-datepicker__day--selected,
+    .react-datepicker__day--keyboard-selected {
+        background-color: #ffff;;
+        color: #0000;
+        border-radius: 50%;
+    }
+
+    .react-datepicker__day:hover {
+        background-color: #ffff;
+        color: #ffff;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

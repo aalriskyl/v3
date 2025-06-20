@@ -1,0 +1,10 @@
+.auth-bg {
+  background-image: url('/public/media/auth/auth-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__image {
+    display: none; // kalau nggak mau pakai img tag
+  }
+}

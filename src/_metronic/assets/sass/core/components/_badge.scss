@@ -1,0 +1,130 @@
+//
+// Badge
+//
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    
+    // Fixed size
+    &.badge-circle,
+    &.badge-square {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: $badge-size;
+        min-width: $badge-size;
+        padding: 0 0.1rem;
+        line-height: 0;
+    }
+
+    // Circle
+    &.badge-circle {
+        border-radius: 50%;
+        padding: 0;
+        min-width: unset;
+        width: $badge-size;
+    }
+
+    // Sizes
+    &.badge-sm {
+        min-width: $badge-size-sm;
+        font-size: $badge-font-size-sm;
+
+        &.badge-square {
+            height: $badge-size-sm;
+        }
+
+        &.badge-circle {
+            width: $badge-size-sm;
+            height: $badge-size-sm;
+        }
+    }
+
+    &.badge-lg {
+        min-width: $badge-size-lg;
+        font-size: $badge-font-size-lg;
+
+        &.badge-square {
+            height: $badge-size-lg;
+        }
+
+        &.badge-circle {
+            width: $badge-size-lg;
+            height: $badge-size-lg;
+        }
+    }
+}
+
+@each $name, $value in $theme-colors {
+    .badge-#{$name} {
+        color: var(--#{$prefix}#{$name}-inverse);
+        background-color: var(--#{$prefix}#{$name});
+
+        &.badge-outline {
+            border: 1px solid var(--#{$prefix}#{$name});
+            background-color: transparent;
+
+            @if $name == 'secondary' {
+                color: var(--#{$prefix}#{$name}-inverse);
+            } @else {
+                color: var(--#{$prefix}#{$name});
+            }
+        }
+    }
+
+    .badge-light-#{$name} {        
+        background-color: var(--#{$prefix}#{$name}-light);
+
+        @if $name == 'secondary' {
+            color: var(--#{$prefix}#{$name}-inverse);
+        } @else {
+            color: var(--#{$prefix}#{$name});
+        }
+    }    
+}
+
+.badge-light-active {
+    background-color: #E7FDED;
+    padding: 4px 8px 4px 8px ;
+    color: #10C142;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 4px;
+}
+.badge-light-partial {
+    background-color: #FDF2E7;
+    padding: 4px 8px 4px 8px ;
+    color: #EF933E;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 4px;
+}
+
+.badge-light-inactive {
+    background-color: #FDE9E7;
+    padding: 4px 8px 4px 8px ;
+    color: #EF4D3E;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 4px;
+}
+
+.badge-light-success {
+    background-color: #D1F4FF;
+    padding: 4px 8px 4px 8px ;
+    color: #009EE7;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 4px;
+}
+
+.badge-draft {
+    background-color: #F3F1F1;
+    padding: 4px 8px 4px 8px ;
+    color: #A38F8F;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 4px;
+}
+

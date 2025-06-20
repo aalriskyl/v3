@@ -1,0 +1,105 @@
+const bankOptions = [
+  {
+    name: "PT. BANK CIMB NIAGA - (CIMB)",
+    value: "PT. BANK CIMB NIAGA - (CIMB)",
+  },
+  {
+    name: "PT. BANK CIMB NIAGA UNIT USAHA SYARIAH - (CIMB SYARIAH)",
+    value: "PT. BANK CIMB NIAGA UNIT USAHA SYARIAH - (CIMB SYARIAH)",
+  },
+  { name: "PT. BNI SYARIAH", value: "PT. BNI SYARIAH" },
+  { name: "PT. BANK BCA SYARIAH", value: "PT. BANK BCA SYARIAH" },
+  { name: "PT. BANK BUKOPIN", value: "PT. BANK BUKOPIN" },
+  {
+    name: "PT. BANK CENTRAL ASIA, TBK - (BCA)",
+    value: "PT. BANK CENTRAL ASIA, TBK - (BCA)",
+  },
+  { name: "PT. BANK DANAMON INDONESIA", 
+    value: "PT. BANK DANAMON INDONESIA" },
+  { name: "PT. BANK DKI", value: "PT. BANK DKI" },
+  { name: "PT. BANK DBS INDONESIA", value: "PT. BANK DBS INDONESIA" },
+  { name: "PT. BANK HSBC INDONESIA", value: "PT. BANK HSBC INDONESIA" },
+  {
+    name: "PT. BANK MANDIRI (PERSERO), TBK",
+    value: "PT. BANK MANDIRI (PERSERO), TBK",
+  },
+  { name: "PT. BANK MANDIRI TASPEN POS", value: "PT. BANK MANDIRI TASPEN POS" },
+  {
+    name: "PT. BANK MAYBANK INDONESIA, TBK",
+    value: "PT. BANK MAYBANK INDONESIA, TBK",
+  },
+  { name: "PT. BANK MAYORA", value: "PT. BANK MAYORA" },
+  { name: "PT. BANK MEGA, TBK", value: "PT. BANK MEGA, TBK" },
+  {
+    name: "PT. BANK MUAMALAT INDONESIA, TBK",
+    value: "PT. BANK MUAMALAT INDONESIA, TBK",
+  },
+  {
+    name: "PT. BANK NEGARA INDONESIA (PERSERO), TBK (BNI)",
+    value: "PT. BANK NEGARA INDONESIA (PERSERO), TBK (BNI)",
+  },
+  { name: "PT. BANK OCBC NISP, TBK", value: "PT. BANK OCBC NISP, TBK" },
+  {
+    name: "PT. BANK OCBC NISP, TBK UNIT USAHA SYARIAH",
+    value: "PT. BANK OCBC NISP, TBK UNIT USAHA SYARIAH",
+  },
+  { name: "PT. BANK PERMATA, TBK", value: "PT. BANK PERMATA, TBK" },
+  {
+    name: "PT. BANK PERMATA, TBK UNIT USAHA SYARIAH",
+    value: "PT. BANK PERMATA, TBK UNIT USAHA SYARIAH",
+  },
+  {
+    name: "PT. BANK RAKYAT INDONESIA (PERSERO), TBK (BRI)",
+    value: "PT. BANK RAKYAT INDONESIA (PERSERO), TBK (BRI)",
+  },
+  {
+    name: "PT. BANK RAKYAT INDONESIA AGRONIAGA, TBK",
+    value: "PT. BANK RAKYAT INDONESIA AGRONIAGA, TBK",
+  },
+  {
+    name: "PT. BANK SYARIAH BRI - (BRI SYARIAH)",
+    value: "PT. BANK SYARIAH BRI - (BRI SYARIAH)",
+  },
+  { name: "PT. BANK SYARIAH BUKOPIN", value: "PT. BANK SYARIAH BUKOPIN" },
+  { name: "PT. BANK SYARIAH MANDIRI", value: "PT. BANK SYARIAH MANDIRI" },
+  {
+    name: "PT. BANK TABUNGAN NEGARA (PERSERO), TBK (BTN)",
+    value: "PT. BANK TABUNGAN NEGARA (PERSERO), TBK (BTN)",
+  },
+  {
+    name: "PT. BANK TABUNGAN NEGARA (PERSERO), TBK UNIT USAHA SYARIAH",
+    value: "PT. BANK TABUNGAN NEGARA (PERSERO), TBK UNIT USAHA SYARIAH",
+  },
+  {
+    name: "PT. BANK TABUNGAN PENSIUNAN NASIONAL - (BTPN)",
+    value: "PT. BANK TABUNGAN PENSIUNAN NASIONAL - (BTPN)",
+  },
+  {
+    name: "PT. BANK TABUNGAN PENSIUNAN NASIONAL SYARIAH - (BTPN Syariah)",
+    value: "PT. BANK TABUNGAN PENSIUNAN NASIONAL SYARIAH - (BTPN Syariah)",
+  },
+  {
+    name: "PT. BANK WOORI SAUDARA INDONESIA 1906, TBK (BWS)",
+    value: "PT. BANK WOORI SAUDARA INDONESIA 1906, TBK (BWS)",
+  },
+  {
+    name: "PT. BANK JABAR BANTEN SYARIAH",
+    value: "PT. BANK JABAR BANTEN SYARIAH",
+  },
+  {
+    name: "PT. BANK PEMBANGUNAN DAERAH BANTEN",
+    value: "PT. BANK PEMBANGUNAN DAERAH BANTEN",
+  },
+  { name: "PT. BANK CAPITAL INDONESIA", value: "PT. BANK CAPITAL INDONESIA" },
+  {
+    name: "PT. BANK DKI UNIT USAHA SYARIAH",
+    value: "PT. BANK DKI UNIT USAHA SYARIAH",
+  },
+  { name: "PT. BANK ICBC INDONESIA", value: "PT. BANK ICBC INDONESIA" },
+  {
+    name: "PT. BANK JTRUST INDONESIA, TBK",
+    value: "PT. BANK JTRUST INDONESIA, TBK",
+  },
+];
+
+export default bankOptions;
